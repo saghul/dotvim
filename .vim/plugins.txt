@@ -1,0 +1,10 @@
+Plugins
+-------
+
+- pyflakes (http://www.vim.org/scripts/script.php?script_id=2441)
+- snipMate (https://github.com/msanders/snipmate.vim)
+- Commant-T (http://www.vim.org/scripts/script.php?script_id=3025)
+- NERDTree (http://www.vim.org/scripts/script.php?script_id=1658)
+- taglist (http://www.vim.org/scripts/script.php?script_id=273)
+- tasklist (http://www.vim.org/scripts/script.php?script_id=2607)
+
