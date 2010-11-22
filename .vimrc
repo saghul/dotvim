@@ -78,6 +78,9 @@ set wildignore+=.git/*,.svn/*,.hg/*,_darcs/*,build/*,dist/*,*.o,*.so,*.pyc
 
 """ Custom key settings """
 
+" <leader> key
+let mapleader = ","
+
 " Use Q for formatting the current paragraph (or selection)
 " doesn't do it very well for Python code
 " vmap Q gq
@@ -98,10 +101,10 @@ nmap <silent><C-l> :nohlsearch<CR>
 " ALT-right moves right
 " CTRL-o opens current directory
 map <silent><C-t> :tabnew<CR>
-" map <silent><C-o> :op .<CR>
+map <silent><C-o> :op .<CR>
 
 " open Command-T
-nmap <silent><C-o> :CommandT<CR>
+nmap <Leader>t :CommandT<CR>
 
 if has("mac")
     map <silent><S-Right> :tabnext<CR>
