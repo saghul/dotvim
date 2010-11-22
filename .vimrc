@@ -135,7 +135,11 @@ map <silent><S-t> <Plug>TaskList
 
 " omnicomplete
 " <C-p> : keyword completion
-inoremap <Nul> <C-x><C-o>
+if has("gui")
+    inoremap <C-Space> <C-x><C-o>
+else
+    inoremap <Nul> <C-x><C-o>
+endif
 " <C-Space> might be needed in GUI environments instead of <Nul>
 
 
