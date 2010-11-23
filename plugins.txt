@@ -7,5 +7,5 @@ Plugins
 - NERDTree (http://www.vim.org/scripts/script.php?script_id=1658)
 - taglist (http://www.vim.org/scripts/script.php?script_id=273)
 - tasklist (http://www.vim.org/scripts/script.php?script_id=2607)
-- autoclose (https://github.com/Townk/vim-autoclose)
+- AutoClose (https://github.com/vim-scripts/AutoClose)
 
