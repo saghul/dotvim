@@ -163,6 +163,8 @@ if has("gui")
     colorscheme kib_darktango
     " no toolbar
     set guioptions-=T
+    " no menu bar
+    set guioptions-=m
     " no scrollbar on the right
     set guioptions-=r
     " no scrollbar on the left
