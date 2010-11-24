@@ -27,7 +27,7 @@ ln -s ~/.vim/vimrc ~/.vimrc
 # Rebuild Command-T extension
 if [[ "$RUBY_BIN" != "NULL" ]]; then
     pushd ~/.vim/bundle/Command-T/ruby/command-t
-    ruby extconf.rb
+    $RUBY_BIN extconf.rb
     make
     popd
 fi
