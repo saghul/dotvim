@@ -3,8 +3,13 @@
 " fuck vi! long life vim!
 set nocompatible
 
-" mode filetype
-filetype on
+" pathogen
+filetype off
+call pathogen#runtime_append_all_bundles()
+call pathogen#runtime_append_all_bundles('static_bundle')
+call pathogen#helptags()
+
+" use filetype plugins
 filetype plugin on
 filetype plugin indent on
 

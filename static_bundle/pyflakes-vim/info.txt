@@ -1,0 +1,5 @@
+Plugin has to be manually updated because the structure in the
+Git repository is not standard.
+
+https://github.com/kevinw/pyflakes-vim
+

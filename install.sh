@@ -13,7 +13,7 @@ cp -r * ~/.vim/
 ln -s ~/.vim/vimrc ~/.vimrc
 
 # Rebuild Command-T extension
-pushd ~/.vim/ruby/command-t
+pushd ~/.vim/bundle/Command-T/ruby/command-t
 ruby extconf.rb
 make
 popd
