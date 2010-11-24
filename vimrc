@@ -161,6 +161,12 @@ endif
 if has("gui")
     set guifont=Monaco:h16
     colorscheme kib_darktango
+    " no toolbar
+    set guioptions-=T
+    " no scrollbar on the right
+    set guioptions-=r
+    " no scrollbar on the left
+    set guioptions-=l
 endif
 
 
