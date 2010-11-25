@@ -143,7 +143,7 @@ map <silent><S-t> <Plug>TaskList
 
 " omnicomplete
 " <C-p> : keyword completion
-if has("gui")
+if has("gui_running")
     inoremap <C-Space> <C-x><C-o>
 else
     inoremap <Nul> <C-x><C-o>
@@ -158,9 +158,8 @@ endif
 
 """ GUI options """
 
-if has("gui")
+if has("gui_running")
     set guifont=Monaco:h16
-    colorscheme kib_darktango
     " no toolbar
     set guioptions-=T
     " no menu bar
@@ -188,4 +187,8 @@ let Tlist_Inc_Winwidth = 0
 " remember where we stopped editing a file
 autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 
+" nice colorscheme
+if &t_Co >= 256 || has("gui_running")
+    colorscheme mustang
+endif
 
