@@ -162,7 +162,11 @@ noremap <Leader>f :Ack
 """ GUI options """
 
 if has("gui_running")
-    set guifont=Inconsolata\ 16
+    if has("mac")
+	set guifont=Inconsolata:h16
+    else
+        set guifont=Inconsolata\ 16
+    endif
     " no toolbar
     set guioptions-=T
     " no menu bar
