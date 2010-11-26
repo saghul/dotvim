@@ -27,21 +27,21 @@ ln -s ~/.vim/vimrc ~/.vimrc
 
 # Upgrade plugins if wanted
 read -n1 -p "Do you want to upgrade the plugins from Git? (y/n) "
+echo ""
 if [[ "$REPLY" == "y" ]]; then
     rm -rf ~/.vim/bundle
     mkdir ~/.vim/bundle
-    pushd ~/.vim/bundle
+    pushd ~/.vim/bundle > /dev/null 2>&1
     $CURRENT_DIR/update_plugins.py
-    popd
+    popd > /dev/null 2>&1
 fi
-echo ""
 
 # Rebuild Command-T extension
 if [[ "$RUBY_BIN" != "NULL" ]]; then
-    pushd ~/.vim/bundle/command-t/ruby/command-t
+    pushd ~/.vim/bundle/command-t/ruby/command-t > /dev/null 2>&1
     $RUBY_BIN extconf.rb
     make
-    popd
+    popd > /dev/null 2>&1
 fi
 
 echo "All done!"
