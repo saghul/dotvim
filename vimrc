@@ -150,6 +150,9 @@ else
 endif
 " <C-Space> might be needed in GUI environments instead of <Nul>
 
+" ack
+noremap <Leader>f :Ack
+
 
 """ skeletons """
 
@@ -172,6 +175,13 @@ endif
 
 
 """ Plugin options """
+
+" Ack plugin configuration
+if has("mac")
+    let g:ackprg="ack -H --nocolor --nogroup --column"
+elseif has("unix")
+    let g:ackprg="ack-grep -H --nocolor --nogroup --column"
+endif
 
 " TagList plugin configuration
 if has("mac")

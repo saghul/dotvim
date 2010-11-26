@@ -15,7 +15,8 @@ plugins = {
            "nerdtree": "https://github.com/scrooloose/nerdtree.git",
            "taglist": "https://github.com/mexpolk/vim-taglist.git",
            "tasklist": "https://github.com/nowk/vim-tasklist.git",
-           "autoclose": "https://github.com/vim-scripts/AutoClose.git"
+           "autoclose": "https://github.com/vim-scripts/AutoClose.git",
+           "ack": "https://github.com/mileszs/ack.vim.git"
           }
 
 
