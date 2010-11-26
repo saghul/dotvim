@@ -175,7 +175,7 @@ endif
 
 " TagList plugin configuration
 if has("mac")
-    let Tlist_Ctags_Cmd = '/opt/local/bin/ctags'
+    let Tlist_Ctags_Cmd = '~/.homebrew/bin/ctags'
 elseif has("unix")
     let Tlist_Ctags_Cmd = '/usr/bin/ctags-exuberant'
 endif
