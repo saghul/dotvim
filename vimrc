@@ -159,7 +159,7 @@ endif
 """ GUI options """
 
 if has("gui_running")
-    set guifont=Monaco:h16
+    set guifont=Inconsolata\ 16
     " no toolbar
     set guioptions-=T
     " no menu bar
