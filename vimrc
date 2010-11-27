@@ -80,6 +80,9 @@ set pastetoggle=<F3>
 " ignore files and folders from listings
 set wildignore+=.git/*,.svn/*,.hg/*,_darcs/*,build/*,dist/*,*.o,*.so,*.pyc
 
+" save OS for later checks
+let os = substitute(system('uname'), "\n", "", "")
+
 
 """ Custom key settings """
 
@@ -111,10 +114,10 @@ map <silent><C-o> :op .<CR>
 " open Command-T
 nmap <Leader>t :CommandT<CR>
 
-if has("mac")
+if os == "Darwin"
     map <silent><S-Right> :tabnext<CR>
     map <silent><S-Left> :tabprevious<CR>
-elseif has("unix")
+elseif os == "Linux"
     map <silent><A-Right> :tabnext<CR>
     map <silent><A-Left> :tabprevious<CR>
 endif
@@ -162,7 +165,7 @@ noremap <Leader>f :Ack
 """ GUI options """
 
 if has("gui_running")
-    if has("mac")
+    if os == "Darwin"
 	set guifont=Inconsolata:h16
     else
         set guifont=Inconsolata\ 16
@@ -181,16 +184,16 @@ endif
 """ Plugin options """
 
 " Ack plugin configuration
-if has("mac")
+if os == "Darwin"
     let g:ackprg="ack -H --nocolor --nogroup --column"
-elseif has("unix")
+elseif os == "Linux"
     let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 endif
 
 " TagList plugin configuration
-if has("mac")
+if os == "Darwin"
     let Tlist_Ctags_Cmd = '~/.homebrew/bin/ctags'
-elseif has("unix")
+elseif os == "Linux"
     let Tlist_Ctags_Cmd = '/usr/bin/ctags-exuberant'
 endif
 let Tlist_Inc_Winwidth = 0
