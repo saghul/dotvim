@@ -156,6 +156,9 @@ endif
 " ack
 noremap <Leader>f :Ack
 
+" conque shell
+command SH :ConqueTerm bash
+
 
 """ skeletons """
 

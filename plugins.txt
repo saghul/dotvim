@@ -9,4 +9,5 @@ Plugins
 - tasklist (http://www.vim.org/scripts/script.php?script_id=2607)
 - AutoClose (https://github.com/vim-scripts/AutoClose)
 - Ack (https://github.com/mileszs/ack.vim.git)
+- Conque-Shell (https://github.com/vim-scripts/Conque-Shell.git)
 

@@ -16,7 +16,8 @@ plugins = {
            "taglist": "https://github.com/mexpolk/vim-taglist.git",
            "tasklist": "https://github.com/nowk/vim-tasklist.git",
            "autoclose": "https://github.com/vim-scripts/AutoClose.git",
-           "ack": "https://github.com/mileszs/ack.vim.git"
+           "ack": "https://github.com/mileszs/ack.vim.git",
+           "conque-shell": "https://github.com/vim-scripts/Conque-Shell.git"
           }
 
 
