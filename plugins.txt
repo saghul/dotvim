@@ -11,4 +11,5 @@ Plugins
 - Ack (https://github.com/mileszs/ack.vim.git)
 - Conque-Shell (https://github.com/vim-scripts/Conque-Shell.git)
 - pythonhelper (https://github.com/vim-scripts/pythonhelper.git)
+- Gist (https://github.com/vim-scripts/Gist.vim.git)
 
