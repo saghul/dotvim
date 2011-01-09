@@ -19,7 +19,8 @@ plugins = {
            "ack": "https://github.com/mileszs/ack.vim.git",
            "conque-shell": "https://github.com/vim-scripts/Conque-Shell.git",
            "pythonhelper": "https://github.com/vim-scripts/pythonhelper.git",
-           "gist": "https://github.com/vim-scripts/Gist.vim.git"
+           "gist": "https://github.com/vim-scripts/Gist.vim.git",
+           "pythoncomplete": "https://github.com/vim-scripts/pythoncomplete.git"
           }
 
 
