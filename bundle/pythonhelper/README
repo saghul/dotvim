@@ -1,0 +1,5 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=435
+
+Vim script to help moving around in larger Python source files. It displays current class, method or function the cursor is placed in in the status line for every python file. It's more clever than Yegappan Lakshmanan's taglist.vim because it takes into account indetation and comments to determine what tag the cursor is placed in and from version 0.80 doesn't need exuberant ctags utility.
+
+Note: The script displays current tag on the status line only in NORMAL mode. This is because CursorHold event in VIM is fired up only in this mode. However if you'd like to know what tag you are in even in INSERT or VISUAL mode, contact me (email specified in the script) and I'll send you a patch that enables firing up CursorHold event in those modes as well.
