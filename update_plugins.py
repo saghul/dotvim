@@ -10,17 +10,17 @@ import sys
 
 
 plugins = {
-           "snipmate": "https://github.com/msanders/snipmate.vim.git",
-           "command-t": "https://github.com/wincent/Command-T.git",
-           "nerdtree": "https://github.com/scrooloose/nerdtree.git",
-           "taglist": "https://github.com/mexpolk/vim-taglist.git",
-           "tasklist": "https://github.com/vim-scripts/TaskList.vim.git",
-           "autoclose": "https://github.com/vim-scripts/AutoClose.git",
-           "ack": "https://github.com/mileszs/ack.vim.git",
-           "conque-shell": "https://github.com/vim-scripts/Conque-Shell.git",
-           "pythonhelper": "https://github.com/vim-scripts/pythonhelper.git",
-           "gist": "https://github.com/vim-scripts/Gist.vim.git",
-           "pythoncomplete": "https://github.com/vim-scripts/pythoncomplete.git"
+           "ack"                : "https://github.com/mileszs/ack.vim.git",
+           "autoclose"          : "https://github.com/vim-scripts/AutoClose.git",
+           "command-t"          : "https://github.com/wincent/Command-T.git",
+           "conque-shell"       : "https://github.com/vim-scripts/Conque-Shell.git",
+           "gist"               : "https://github.com/vim-scripts/Gist.vim.git",
+           "nerdtree"           : "https://github.com/scrooloose/nerdtree.git",
+           "pythoncomplete"     : "https://github.com/vim-scripts/pythoncomplete.git",
+           "pythonhelper"       : "https://github.com/vim-scripts/pythonhelper.git",
+           "snipmate"           : "https://github.com/msanders/snipmate.vim.git",
+           "taglist"            : "https://github.com/mexpolk/vim-taglist.git",
+           "tasklist"           : "https://github.com/vim-scripts/TaskList.vim.git"
           }
 
 
