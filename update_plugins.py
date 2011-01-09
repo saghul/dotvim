@@ -14,7 +14,7 @@ plugins = {
            "command-t": "https://github.com/wincent/Command-T.git",
            "nerdtree": "https://github.com/scrooloose/nerdtree.git",
            "taglist": "https://github.com/mexpolk/vim-taglist.git",
-           "tasklist": "https://github.com/nowk/vim-tasklist.git",
+           "tasklist": "https://github.com/vim-scripts/TaskList.vim.git",
            "autoclose": "https://github.com/vim-scripts/AutoClose.git",
            "ack": "https://github.com/mileszs/ack.vim.git",
            "conque-shell": "https://github.com/vim-scripts/Conque-Shell.git"
