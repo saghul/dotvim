@@ -66,7 +66,9 @@ set copyindent
 " tab width spaces
 set shiftwidth=4
 set softtabstop=4
+set tabstop=8
 set shiftround
+set expandtab
 
 " number of lines to show above and below the cursor
 set scrolloff=4
@@ -211,4 +213,9 @@ autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "norm
 if &t_Co >= 256 || has("gui_running")
     colorscheme mustang
 endif
+
+" highlight wrong spaces and tabs
+highlight BadWhitespace ctermbg=red guibg=red
+match BadWhitespace /^\t\+/
+match BadWhitespace /^\s\+$/
 
