@@ -13,4 +13,5 @@ Plugins
 - pythonhelper (https://github.com/vim-scripts/pythonhelper.git)
 - Gist (https://github.com/vim-scripts/Gist.vim.git)
 - pythoncomplete (https://github.com/vim-scripts/pythoncomplete.git)
+- NERDCommenter (https://github.com/scrooloose/nerdcommenter.git)
 

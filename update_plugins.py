@@ -16,6 +16,7 @@ plugins = {
            "conque-shell"       : "https://github.com/vim-scripts/Conque-Shell.git",
            "gist"               : "https://github.com/vim-scripts/Gist.vim.git",
            "nerdtree"           : "https://github.com/scrooloose/nerdtree.git",
+           "nerdcommenter"      : "https://github.com/scrooloose/nerdcommenter.git",
            "pythoncomplete"     : "https://github.com/vim-scripts/pythoncomplete.git",
            "pythonhelper"       : "https://github.com/vim-scripts/pythonhelper.git",
            "snipmate"           : "https://github.com/msanders/snipmate.vim.git",
