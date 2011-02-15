@@ -213,9 +213,12 @@ let Tlist_Inc_Winwidth = 0
 autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 
 " nice colorscheme
-if &t_Co >= 256 || has("gui_running")
-    colorscheme mustang
-endif
+" OLD
+"if &t_Co >= 256 || has("gui_running")
+"    colorscheme mustang
+"endif
+set t_Co=256
+colorscheme mustang
 
 " highlight wrong spaces and tabs
 highlight BadWhitespace ctermbg=red guibg=red
