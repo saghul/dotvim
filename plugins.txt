@@ -10,7 +10,7 @@ Plugins
 - AutoClose (https://github.com/vim-scripts/AutoClose)
 - Ack (https://github.com/mileszs/ack.vim.git)
 - Conque-Shell (https://github.com/vim-scripts/Conque-Shell.git)
-- pythonhelper (https://github.com/vim-scripts/pythonhelper.git)
+- pythonhelper (https://github.com/saghul/pythonhelper.git)
 - Gist (https://github.com/vim-scripts/Gist.vim.git)
 - pythoncomplete (https://github.com/vim-scripts/pythoncomplete.git)
 - NERDCommenter (https://github.com/scrooloose/nerdcommenter.git)

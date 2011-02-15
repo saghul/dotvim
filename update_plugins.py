@@ -18,7 +18,7 @@ plugins = {
            "nerdtree"           : "https://github.com/scrooloose/nerdtree.git",
            "nerdcommenter"      : "https://github.com/scrooloose/nerdcommenter.git",
            "pythoncomplete"     : "https://github.com/vim-scripts/pythoncomplete.git",
-           "pythonhelper"       : "https://github.com/vim-scripts/pythonhelper.git",
+           "pythonhelper"       : "https://github.com/saghul/pythonhelper.git",
            "snipmate"           : "https://github.com/msanders/snipmate.vim.git",
            "taglist"            : "https://github.com/mexpolk/vim-taglist.git",
            "tasklist"           : "https://github.com/vim-scripts/TaskList.vim.git"
