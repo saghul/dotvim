@@ -131,7 +131,7 @@ map <silent><F2> :set invnumber<CR>
 " imap ss <Esc>:sh<CR>
 
 " toggle NERDtree
-" map <silent><F3> :NERDTreeToggle<CR>
+map <silent><F4> :NERDTreeToggle<CR>
 
 " use jj same as ESC 
 imap jj <Esc>
