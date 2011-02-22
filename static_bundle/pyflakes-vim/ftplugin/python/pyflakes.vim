@@ -25,7 +25,7 @@ if !exists("b:did_python_init")
     let b:did_python_init = 0
 
     if !has('python')
-        echoerr "Error: the pyflakes.vim plugin requires Vim to be compiled with +python"
+        " the pyflakes.vim plugin requires Vim to be compiled with +python
         finish
     endif
 
@@ -46,7 +46,11 @@ if sys.version_info[:2] < (2, 5):
 scriptdir = os.path.join(os.path.dirname(vim.eval('expand("<sfile>")')), 'pyflakes')
 sys.path.insert(0, scriptdir)
 
-import ast
+try:
+    import ast
+except ImportError:
+    import _ast as ast
+
 from pyflakes import checker, messages
 from operator import attrgetter
 import re
@@ -85,9 +89,9 @@ def check(buffer):
     if vimenc:
         contents = contents.decode(vimenc)
 
-    builtins = []
+    builtins = set(['__file__'])
     try:
-        builtins = set(eval(vim.eval('string(g:pyflakes_builtins)')))
+        builtins.update(set(eval(vim.eval('string(g:pyflakes_builtins)'))))
     except Exception:
         pass
 
@@ -95,7 +99,7 @@ def check(buffer):
         # TODO: use warnings filters instead of ignoring stderr
         old_stderr, sys.stderr = sys.stderr, blackhole()
         try:
-            tree = ast.parse(contents, filename or '<unknown>')
+            tree = compile(contents, filename or 'unknown', 'exec', ast.PyCF_ONLY_AST)
         finally:
             sys.stderr = old_stderr
     except:
