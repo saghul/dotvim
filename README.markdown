@@ -52,7 +52,9 @@ In your home directory:
 * [vim-preview](https://github.com/greyblake/vim-preview.git)
 
 ##Colorschemes
-*  [mustang](http://hcalves.deviantart.com/art/Mustang-Vim-Colorscheme-98974484)
+* [mustang](http://hcalves.deviantart.com/art/Mustang-Vim-Colorscheme-98974484)
+* [mayansmoke](http://www.vim.org/scripts/script.php?script_id=3065)
+* [ir_black](http://blog.toddwerth.com/entries/show/8)
 
 ###Some considerations
 * Leader is **,**
