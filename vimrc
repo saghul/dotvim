@@ -164,6 +164,9 @@ command SH :ConqueTerm bash
 " preview
 let g:PreviewBrowsers = 'chromium-browser,google-chrome,firefox,safari'
 
+" gundo
+map <silent><F6> :GundoToggle<CR>
+
 
 """ skeletons """
 

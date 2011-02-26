@@ -4,6 +4,9 @@ My ViM configuration. Its my current Python IDE.
 
 Works on GNU/Linux and Mac OSX.
 
+##Before you continue reading
+You'll need ViM 7.3 or higher.
+
 ##Installation
 In your home directory:
 
@@ -29,6 +32,7 @@ In your home directory:
 * **Shift + t** => Show task list
 * **F4** => NERDTree
 * **F5** => Toggle taglist
+* **F6** => Toggle Gundo
 * **:SH** => Show Conque Shell
 * **,cl** => Comment lines (put comment symbol on the left)
 * **,f** => Ack search
@@ -50,6 +54,7 @@ In your home directory:
 * [taglist](http://www.vim.org/scripts/script.php?script_id=273)
 * [tasklist](http://www.vim.org/scripts/script.php?script_id=2607)
 * [vim-preview](https://github.com/greyblake/vim-preview.git)
+* [gundo](https://github.com/sjl/gundo.vim.git)
 
 ##Colorschemes
 * [mustang](http://hcalves.deviantart.com/art/Mustang-Vim-Colorscheme-98974484)

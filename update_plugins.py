@@ -15,6 +15,7 @@ plugins = {
            "command-t"          : "https://github.com/wincent/Command-T.git",
            "conque-shell"       : "https://github.com/vim-scripts/Conque-Shell.git",
            "gist"               : "https://github.com/vim-scripts/Gist.vim.git",
+           "gundo"              : "https://github.com/sjl/gundo.vim.git",
            "nerdtree"           : "https://github.com/scrooloose/nerdtree.git",
            "nerdcommenter"      : "https://github.com/scrooloose/nerdcommenter.git",
            "preview"            : "https://github.com/greyblake/vim-preview.git",
