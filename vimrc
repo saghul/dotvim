@@ -102,6 +102,12 @@ let mapleader = ","
 " map <left> <nop>
 " map <right> <nop>
 
+" move across splits with Ctrl and arrows
+nnoremap <C-left> <C-w>h
+nnoremap <C-down> <C-w>j
+nnoremap <C-up> <C-w>k
+nnoremap <C-right> <C-w>l
+
 " clear highlighted search
 nmap <silent><C-l> :nohlsearch<CR>
 
