@@ -232,5 +232,7 @@ colorscheme mustang
 " highlight wrong spaces and tabs
 highlight BadWhitespace ctermbg=red guibg=red
 match BadWhitespace /^\t\+/
-match BadWhitespace /^\s\+$/
+match BadWhitespace /^\s\+/
+match BadWhitespace /\t\+$/
+match BadWhitespace /\s\+$/
 
