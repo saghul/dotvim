@@ -173,6 +173,12 @@ let g:PreviewBrowsers = 'chromium-browser,google-chrome,firefox,safari'
 " gundo
 map <silent><F6> :GundoToggle<CR>
 
+" standard cut/copy/paste keys
+vmap <C-c> "+yi
+vmap <C-x> "+c
+vmap <C-v> c<ESC>"+p
+imap <C-v> <ESC>"+pa
+
 
 """ skeletons """
 
