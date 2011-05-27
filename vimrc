@@ -79,6 +79,9 @@ set pastetoggle=<F3>
 " use mouse in normal mode
 " set mouse=n
 
+" ability to open up to 50 files
+set tabpagemax=50
+
 " ignore files and folders from listings
 set wildignore+=.git/*,.svn/*,.hg/*,_darcs/*,build/*,dist/*,*.o,*.so,*.pyc
 
