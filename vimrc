@@ -167,9 +167,6 @@ endif
 " ack
 noremap <Leader>f :Ack
 
-" conque shell
-command SH :ConqueTerm bash
-
 " preview
 let g:PreviewBrowsers = 'chromium-browser,google-chrome,firefox,safari'
 

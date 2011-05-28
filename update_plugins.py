@@ -13,7 +13,6 @@ plugins = {
            "ack"                : "https://github.com/mileszs/ack.vim.git",
            "autoclose"          : "https://github.com/vim-scripts/AutoClose.git",
            "command-t"          : "https://github.com/wincent/Command-T.git",
-           "conque-shell"       : "https://github.com/vim-scripts/Conque-Shell.git",
            "gist"               : "https://github.com/vim-scripts/Gist.vim.git",
            "gundo"              : "https://github.com/sjl/gundo.vim.git",
            "nerdtree"           : "https://github.com/scrooloose/nerdtree.git",
