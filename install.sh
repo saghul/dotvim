@@ -2,7 +2,6 @@
 
 NOW=`date +%Y-%m-%d.%H:%M:%S`
 BACKUP_DIR="vim-backup.$NOW.$$"
-CURRENT_DIR=`pwd`
 
 
 # Find Ruby binary
@@ -22,14 +21,13 @@ mv ~/.vimrc ~/.vim ~/$BACKUP_DIR
 
 # Copy new configuration
 mkdir ~/.vim
-cp -r * ~/.vim/
+cp -a . ~/.vim/
 ln -s ~/.vim/vimrc ~/.vimrc
 
 # Upgrade plugins
-rm -rf ~/.vim/bundle
-mkdir ~/.vim/bundle
-pushd ~/.vim/bundle > /dev/null 2>&1
-$CURRENT_DIR/update_plugins.py
+pushd ~/.vim/ > /dev/null 2>&1
+git submodule init
+git submodule update
 popd > /dev/null 2>&1
 
 # Rebuild Command-T extension
