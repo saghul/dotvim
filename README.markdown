@@ -33,7 +33,6 @@ In your home directory:
 * **F4** => NERDTree
 * **F5** => Toggle taglist
 * **F6** => Toggle Gundo
-* **:SH** => Show Conque Shell
 * **,cl** => Comment lines (put comment symbol on the left)
 * **,f** => Ack search
 * **,t** => Open file (Command-T)
@@ -42,19 +41,19 @@ In your home directory:
 * [Ack](https://github.com/mileszs/ack.vim.git)
 * [AutoClose](https://github.com/vim-scripts/AutoClose)
 * [Commant-T](http://www.vim.org/scripts/script.php?script_id=3025)
-* [Conque-Shell](https://github.com/vim-scripts/Conque-Shell.git)
 * [Gist](https://github.com/vim-scripts/Gist.vim.git)
+* [gundo](https://github.com/sjl/gundo.vim.git)
 * [NERDCommenter](https://github.com/scrooloose/nerdcommenter.git)
 * [NERDTree](http://www.vim.org/scripts/script.php?script_id=1658)
 * [Pathogen](https://github.com/tpope/vim-pathogen)
-* [pyflakes](http://www.vim.org/scripts/script.php?script_id=2441)
+* [pydoc](https://github.com/fs111/pydoc.vim.git)
+* [pyflakes](https://github.com/mitechie/pyflakes-pathogen.git)
 * [pythoncomplete](https://github.com/vim-scripts/pythoncomplete.git)
 * [pythonhelper](https://github.com/saghul/pythonhelper.git)
 * [snipMate](https://github.com/msanders/snipmate.vim)
 * [taglist](http://www.vim.org/scripts/script.php?script_id=273)
 * [tasklist](http://www.vim.org/scripts/script.php?script_id=2607)
 * [vim-preview](https://github.com/greyblake/vim-preview.git)
-* [gundo](https://github.com/sjl/gundo.vim.git)
 
 ##Colorschemes
 * [mustang](http://hcalves.deviantart.com/art/Mustang-Vim-Colorscheme-98974484)
