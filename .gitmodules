@@ -43,3 +43,6 @@
 [submodule "bundle/tasklist"]
 	path = bundle/tasklist
 	url = https://github.com/vim-scripts/TaskList.vim.git
+[submodule "bundle/pep8"]
+	path = bundle/pep8
+	url = https://github.com/saghul/vim-pep8.git

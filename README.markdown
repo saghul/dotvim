@@ -33,6 +33,7 @@ In your home directory:
 * **F4** => NERDTree
 * **F5** => Toggle taglist
 * **F6** => Toggle Gundo
+* **F7** => PEP8
 * **,cl** => Comment lines (put comment symbol on the left)
 * **,f** => Ack search
 * **,t** => Open file (Command-T)
@@ -46,6 +47,7 @@ In your home directory:
 * [NERDCommenter](https://github.com/scrooloose/nerdcommenter.git)
 * [NERDTree](http://www.vim.org/scripts/script.php?script_id=1658)
 * [Pathogen](https://github.com/tpope/vim-pathogen)
+* [pep8](https://github.com/saghul/vim-pep8.git)
 * [pydoc](https://github.com/fs111/pydoc.vim.git)
 * [pyflakes](https://github.com/mitechie/pyflakes-pathogen.git)
 * [pythoncomplete](https://github.com/vim-scripts/pythoncomplete.git)

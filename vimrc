@@ -221,6 +221,9 @@ elseif os == "Linux"
 endif
 let Tlist_Inc_Winwidth = 0
 
+" PEP8
+let g:pep8_map='<F7>'
+
 
 """ Misc options """
 
