@@ -25,16 +25,12 @@ mkdir ~/.vim
 cp -r * ~/.vim/
 ln -s ~/.vim/vimrc ~/.vimrc
 
-# Upgrade plugins if wanted
-read -n1 -p "Do you want to upgrade the plugins from Git? (y/n) "
-echo ""
-if [[ "$REPLY" == "y" ]]; then
-    rm -rf ~/.vim/bundle
-    mkdir ~/.vim/bundle
-    pushd ~/.vim/bundle > /dev/null 2>&1
-    $CURRENT_DIR/update_plugins.py
-    popd > /dev/null 2>&1
-fi
+# Upgrade plugins
+rm -rf ~/.vim/bundle
+mkdir ~/.vim/bundle
+pushd ~/.vim/bundle > /dev/null 2>&1
+$CURRENT_DIR/update_plugins.py
+popd > /dev/null 2>&1
 
 # Rebuild Command-T extension
 if [[ "$RUBY_BIN" != "NULL" ]]; then
