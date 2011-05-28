@@ -18,6 +18,7 @@ plugins = {
            "nerdtree"           : "https://github.com/scrooloose/nerdtree.git",
            "nerdcommenter"      : "https://github.com/scrooloose/nerdcommenter.git",
            "preview"            : "https://github.com/greyblake/vim-preview.git",
+           "pydoc"              : "https://github.com/fs111/pydoc.vim.git",
            "pyflakes"           : "https://github.com/mitechie/pyflakes-pathogen.git",
            "pythoncomplete"     : "https://github.com/vim-scripts/pythoncomplete.git",
            "pythonhelper"       : "https://github.com/saghul/pythonhelper.git",
