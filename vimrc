@@ -48,7 +48,7 @@ set incsearch
 set hlsearch
 
 " highlight mode for hlsearch
-set hl=l:Incsearch 
+set hl=l:Incsearch
 
 "ignore case when searching
 set ignorecase
@@ -133,7 +133,7 @@ elseif os == "Linux"
     map <silent><A-Left> :tabprevious<CR>
 endif
 
-" toggle line numbers 
+" toggle line numbers
 map <silent><F2> :set invnumber<CR>
 
 " open a new shell
@@ -142,7 +142,7 @@ map <silent><F2> :set invnumber<CR>
 " toggle NERDtree
 map <silent><F4> :NERDTreeToggle<CR>
 
-" use jj same as ESC 
+" use jj same as ESC
 imap jj <Esc>
 
 " fast write and quit
