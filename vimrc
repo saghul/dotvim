@@ -34,9 +34,6 @@ set showmode
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
-" enhance background
-set background=dark
-
 " number of commandline history and undo lines
 set history=1000
 set undolevels=1000
@@ -88,6 +85,9 @@ set wildignore+=.git/*,.svn/*,.hg/*,_darcs/*,build/*,dist/*,*.o,*.so,*.pyc
 " save OS for later checks
 let os = substitute(system('uname'), "\n", "", "")
 
+" viminfo options: http://vimdoc.sourceforge.net/htmldoc/usr_21.html#21.3
+set viminfo='100,<50,s10,h,!
+rviminfo
 
 """ Custom key settings """
 
@@ -230,13 +230,17 @@ let g:pep8_map='<F7>'
 " remember where we stopped editing a file
 autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 
-" nice colorscheme
-" OLD
-"if &t_Co >= 256 || has("gui_running")
-"    colorscheme mustang
-"endif
+" nice colorschemes
 set t_Co=256
-colorscheme mustang
+let g:default_background_type = "dark"
+if has("gui_running")
+    let g:dark_colorscheme = "mustang"
+    let g:light_colorscheme = "pyte"
+else
+    let g:dark_colorscheme = "mustang"
+    let g:light_colorscheme = "mayansmoke"
+endif
+map <silent><F11> :ToggleBg<CR>
 
 " highlight wrong spaces and tabs
 highlight BadWhitespace ctermbg=red guibg=red

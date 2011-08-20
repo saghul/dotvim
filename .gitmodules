@@ -46,3 +46,6 @@
 [submodule "bundle/pep8"]
 	path = bundle/pep8
 	url = https://github.com/saghul/vim-pep8.git
+[submodule "bundle/colortoggle"]
+	path = bundle/colortoggle
+	url = https://github.com/saghul/vim-colortoggle.git
