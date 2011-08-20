@@ -34,6 +34,7 @@ In your home directory:
 * **F5** => Toggle taglist
 * **F6** => Toggle Gundo
 * **F7** => PEP8
+* **F11** => Toggle color and background
 * **,cl** => Comment lines (put comment symbol on the left)
 * **,f** => Ack search
 * **,t** => Open file (Command-T)
@@ -42,6 +43,7 @@ In your home directory:
 * [Ack](https://github.com/mileszs/ack.vim.git)
 * [AutoClose](https://github.com/vim-scripts/AutoClose)
 * [Commant-T](http://www.vim.org/scripts/script.php?script_id=3025)
+* [ColorToggle](https://github.com/saghul/vim-colortoggle.git)
 * [Gist](https://github.com/vim-scripts/Gist.vim.git)
 * [gundo](https://github.com/sjl/gundo.vim.git)
 * [NERDCommenter](https://github.com/scrooloose/nerdcommenter.git)
@@ -61,6 +63,7 @@ In your home directory:
 * [mustang](http://hcalves.deviantart.com/art/Mustang-Vim-Colorscheme-98974484)
 * [mayansmoke](http://www.vim.org/scripts/script.php?script_id=3065)
 * [ir_black](http://blog.toddwerth.com/entries/show/8)
+* [pyte](http://www.vim.org/scripts/script.php?script_id=1492)
 
 ###Some considerations
 * Leader is **,**
