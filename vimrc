@@ -240,7 +240,7 @@ else
     let g:dark_colorscheme = "mustang"
     let g:light_colorscheme = "mayansmoke"
 endif
-map <silent><F11> :ToggleBg<CR>
+map <silent><F11> :ToggleBg<CR> :wviminfo<CR>
 
 " highlight wrong spaces and tabs
 highlight BadWhitespace ctermbg=red guibg=red
