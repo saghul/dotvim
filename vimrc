@@ -243,7 +243,8 @@ endif
 map <silent><F11> :ToggleBg<CR> :wviminfo<CR>
 
 " highlight wrong spaces and tabs
-highlight BadWhitespace ctermbg=red guibg=red
+autocmd ColorScheme * highlight BadWhitespace ctermbg=red guibg=red
+colorscheme default " hack to force the highlight group to be created
 match BadWhitespace /^\t\+/
 match BadWhitespace /^\s\+/
 match BadWhitespace /\t\+$/
