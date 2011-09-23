@@ -158,7 +158,7 @@ map <silent><S-t> <Plug>TaskList
 " omnicomplete
 " <C-p> : keyword completion
 if has("gui_running")
-    inoremap <C-Space> <C-x><C-o>
+    inoremap <C-Space> <C-x><C-o><C-n>
 else
     inoremap <Nul> <C-x><C-o>
 endif
@@ -178,6 +178,13 @@ vmap <C-c> "+yi
 vmap <C-x> "+c
 vmap <C-v> c<ESC>"+p
 imap <C-v> <ESC>"+pa
+
+
+""" Omni-completion options """
+" http://vim.wikia.com/wiki/Make_Vim_completion_popup_menu_work_just_like_in_an_IDE
+set completeopt=longest,menuone
+inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+inoremap <expr> <C-n> pumvisible() ? '<C-n>' : '<C-n><C-r>=pumvisible() ? "\<lt>Down>" : ""<CR>'
 
 
 """ skeletons """
