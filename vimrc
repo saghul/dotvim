@@ -198,7 +198,7 @@ if has("gui_running")
     if os == "Darwin"
 	set guifont=Inconsolata:h16
     else
-        set guifont=Inconsolata\ 16
+        set guifont=UbuntuMono\ 16,Inconsolata\ 16
     endif
     " no toolbar
     set guioptions-=T
