@@ -89,6 +89,9 @@ let os = substitute(system('uname'), "\n", "", "")
 set viminfo='100,<50,s10,h,!
 rviminfo
 
+" position cursor one character after the real content: http://vimdoc.sourceforge.net/htmldoc/options.html#'virtualedit
+set virtualedit=onemore
+
 """ Custom key settings """
 
 " <leader> key
