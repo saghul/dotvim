@@ -28,6 +28,8 @@ ln -s ~/.vim/vimrc ~/.vimrc
 pushd ~/.vim/ > /dev/null 2>&1
 git submodule init
 git submodule update
+read -p "Update all plugins (y/n)? "
+[ "$REPLY" == "y" ] && git submodule foreach git pull origin master
 popd > /dev/null 2>&1
 
 # Rebuild Command-T extension
