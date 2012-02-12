@@ -208,7 +208,7 @@ command WQ :Wq
 
 if has("gui_running")
     if os == "Darwin"
-	set guifont=Inconsolata:h16
+	set guifont=Ubuntu\ Mono:h18,Inconsolata:h16
     else
         set guifont=UbuntuMono\ 16,Inconsolata\ 16
     endif
