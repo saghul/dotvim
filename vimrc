@@ -220,6 +220,8 @@ if has("gui_running")
     set guioptions-=r
     " no scrollbar on the left
     set guioptions-=l
+    " disable audible bell
+    set visualbell
 endif
 
 
