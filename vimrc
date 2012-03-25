@@ -4,6 +4,7 @@
 set nocompatible
 
 " pathogen
+filetype on
 filetype off
 call pathogen#runtime_append_all_bundles()
 call pathogen#runtime_append_all_bundles('static_bundle')
