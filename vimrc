@@ -184,7 +184,7 @@ vmap <C-v> c<ESC>"+p
 imap <C-v> <ESC>"+pa
 
 " pyflakes
-let g:pyflakes_use_quickfix = 0
+"let g:pyflakes_use_quickfix = 0
 
 
 """ Omni-completion options """
