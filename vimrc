@@ -271,6 +271,11 @@ match BadWhitespace /^\t\+/
 match BadWhitespace /^\s\+/
 match BadWhitespace /\t\+$/
 match BadWhitespace /\s\+$/
+autocmd BufWinEnter * match BadWhitespace /^\t\+/
+autocmd BufWinEnter * match BadWhitespace /^\s\+/
+autocmd BufWinEnter * match BadWhitespace /\t\+$/
+autocmd BufWinEnter * match BadWhitespace /\s\+$/
+autocmd BufWinLeave * call clearmatches()
 
 if &term =~ '^screen'
     " tmux will send xterm-style keys when its xterm-keys option is on
