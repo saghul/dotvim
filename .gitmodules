@@ -55,3 +55,9 @@
 [submodule "bundle/solarized"]
 	path = bundle/solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/gist"]
+	path = bundle/gist
+	url = https://github.com/mattn/gist-vim.git
+[submodule "bundle/webapi"]
+	path = bundle/webapi
+	url = https://github.com/mattn/webapi-vim.git
