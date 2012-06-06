@@ -55,3 +55,6 @@
 [submodule "bundle/cfi"]
 	path = bundle/cfi
 	url = https://github.com/tyru/current-func-info.vim.git
+[submodule "bundle/solarized"]
+	path = bundle/solarized
+	url = https://github.com/altercation/vim-colors-solarized.git

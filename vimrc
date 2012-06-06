@@ -255,13 +255,17 @@ autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "norm
 " nice colorschemes
 set t_Co=256
 let g:default_background_type = "dark"
-if has("gui_running")
-    let g:dark_colorscheme = "mustang"
-    let g:light_colorscheme = "pyte"
-else
-    let g:dark_colorscheme = "mustang"
-    let g:light_colorscheme = "mayansmoke"
-endif
+let g:solarized_termcolors = 256
+let g:solarized_termtrans = 0
+let g:dark_colorscheme = "solarized"
+let g:light_colorscheme = "solarized"
+"if has("gui_running")
+"    let g:dark_colorscheme = "mustang"
+"    let g:light_colorscheme = "pyte"
+"else
+"    let g:dark_colorscheme = "mustang"
+"    let g:light_colorscheme = "mayansmoke"
+"endif
 map <silent><F11> :ToggleBg<CR> :wviminfo<CR>
 
 " highlight wrong spaces and tabs
