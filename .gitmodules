@@ -22,9 +22,6 @@
 [submodule "bundle/pydoc"]
 	path = bundle/pydoc
 	url = https://github.com/fs111/pydoc.vim.git
-[submodule "bundle/pyflakes"]
-	path = bundle/pyflakes
-	url = https://github.com/mitechie/pyflakes-pathogen.git
 [submodule "bundle/pythoncomplete"]
 	path = bundle/pythoncomplete
 	url = https://github.com/vim-scripts/pythoncomplete.git
@@ -34,9 +31,6 @@
 [submodule "bundle/tasklist"]
 	path = bundle/tasklist
 	url = https://github.com/vim-scripts/TaskList.vim.git
-[submodule "bundle/pep8"]
-	path = bundle/pep8
-	url = https://github.com/saghul/vim-pep8.git
 [submodule "bundle/colortoggle"]
 	path = bundle/colortoggle
 	url = https://github.com/saghul/vim-colortoggle.git
@@ -61,3 +55,6 @@
 [submodule "bundle/webapi"]
 	path = bundle/webapi
 	url = https://github.com/mattn/webapi-vim.git
+[submodule "bundle/flake8"]
+	path = bundle/flake8
+	url = https://github.com/nvie/vim-flake8.git

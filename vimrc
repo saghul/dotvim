@@ -183,9 +183,6 @@ vmap <C-x> "+c
 vmap <C-v> c<ESC>"+p
 imap <C-v> <ESC>"+pa
 
-" pyflakes
-"let g:pyflakes_use_quickfix = 0
-
 
 """ Omni-completion options """
 " http://vim.wikia.com/wiki/Make_Vim_completion_popup_menu_work_just_like_in_an_IDE
@@ -243,9 +240,9 @@ elseif os == "Linux"
 endif
 let Tlist_Inc_Winwidth = 0
 
-" PEP8
-let g:pep8_map='<F7>'
-
+" flake8
+let g:flake8_cmd=expand("~/.vim/pymodules/flake8/bin/flake8")
+let g:flake8_ignore="E501"
 
 """ Misc options """
 
