@@ -33,7 +33,7 @@ In your home directory:
 * **F4** => NERDTree
 * **F5** => Toggle taglist
 * **F6** => Toggle Gundo
-* **F7** => PEP8
+* **F8** => flake8
 * **F11** => Toggle color and background
 * **,cl** => Comment lines (put comment symbol on the left)
 * **,f** => Ack search
@@ -45,30 +45,31 @@ In your home directory:
 * [Commant-T](http://www.vim.org/scripts/script.php?script_id=3025)
 * [ColorToggle](https://github.com/saghul/vim-colortoggle)
 * [current-func-info](https://github.com/tyru/current-func-info.vim)
+* [flake8](https://github.com/nvie/vim-flake8)
 * [fugitive](https://github.com/tpope/vim-fugitive)
-* [Gist](https://github.com/vim-scripts/Gist.vim)
+* [gist](https://github.com/mattn/gist-vim)
 * [gundo](https://github.com/sjl/gundo.vim)
 * [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
 * [NERDTree](http://www.vim.org/scripts/script.php?script_id=1658)
 * [Pathogen](https://github.com/tpope/vim-pathogen)
-* [pep8](https://github.com/saghul/vim-pep8)
 * [powerline](https://github.com/Lokaltog/vim-powerline)
 * [preview](https://github.com/greyblake/vim-preview)
 * [pydoc](https://github.com/fs111/pydoc.vim)
-* [pyflakes](https://github.com/mitechie/pyflakes-pathogen)
 * [pythoncomplete](https://github.com/vim-scripts/pythoncomplete)
 * [snipMate](https://github.com/msanders/snipmate.vim)
 * [taglist](http://www.vim.org/scripts/script.php?script_id=273)
 * [tasklist](http://www.vim.org/scripts/script.php?script_id=2607)
+* [webapi](https://github.com/mattn/webapi-vim)
 
 ##Colorschemes
 * [mustang](http://hcalves.deviantart.com/art/Mustang-Vim-Colorscheme-98974484)
 * [mayansmoke](http://www.vim.org/scripts/script.php?script_id=3065)
 * [ir_black](http://blog.toddwerth.com/entries/show/8)
 * [pyte](http://www.vim.org/scripts/script.php?script_id=1492)
+* [solarized](https://github.com/altercation/vim-colors-solarized)
 
 ###Some considerations
 * Leader is **,**
-* Font is Inconsolata 16
+* Font is Ubuntu Mono or Inconsolata (size 16)
 * Also works in GUI environments, all toolbars have been removed
 
