@@ -55,7 +55,6 @@ In your home directory:
 * [powerline](https://github.com/Lokaltog/vim-powerline)
 * [preview](https://github.com/greyblake/vim-preview)
 * [pydoc](https://github.com/fs111/pydoc.vim)
-* [pythoncomplete](https://github.com/vim-scripts/pythoncomplete)
 * [snipMate](https://github.com/msanders/snipmate.vim)
 * [taglist](http://www.vim.org/scripts/script.php?script_id=273)
 * [tasklist](http://www.vim.org/scripts/script.php?script_id=2607)
