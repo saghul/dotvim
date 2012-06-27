@@ -40,6 +40,7 @@ if [[ "$RUBY_BIN" != "NULL" ]]; then
     popd > /dev/null 2>&1
 fi
 
+echo "Don't forget to install the following Ruby gems for Hammer to work: github-markup tilt redcarpet"
 echo "All done!"
 exit 0
 
