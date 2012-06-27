@@ -35,8 +35,8 @@ popd > /dev/null 2>&1
 # Rebuild Command-T extension
 if [[ "$RUBY_BIN" != "NULL" ]]; then
     pushd ~/.vim/bundle/command-t/ruby/command-t > /dev/null 2>&1
-    $RUBY_BIN extconf.rb
-    make
+    $RUBY_BIN extconf.rb > /dev/null 2>&1
+    make > /dev/null 2>&1
     popd > /dev/null 2>&1
 fi
 
