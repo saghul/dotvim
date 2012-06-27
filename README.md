@@ -37,6 +37,7 @@ In your home directory:
 * **F11** => Toggle color and background
 * **,cl** => Comment lines (put comment symbol on the left)
 * **,f** => Ack search
+* **,p** => Hammer (preview in web browser)
 * **,t** => Open file (Command-T)
 
 ##Plugins

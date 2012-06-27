@@ -171,11 +171,11 @@ endif
 " ack
 noremap <Leader>f :Ack
 
-" preview
-let g:PreviewBrowsers = 'chromium-browser,google-chrome,firefox,safari'
-
 " gundo
 map <silent><F6> :GundoToggle<CR>
+
+" hammer
+noremap <Leader>p :Hammer<CR>
 
 " standard cut/copy/paste keys
 vmap <C-c> "+yi
