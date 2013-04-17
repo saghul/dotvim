@@ -229,11 +229,6 @@ elseif os == "Linux"
 endif
 
 " TagList plugin configuration
-if os == "Darwin"
-    let Tlist_Ctags_Cmd = 'ctags'
-elseif os == "Linux"
-    let Tlist_Ctags_Cmd = 'ctags-exuberant'
-endif
 let Tlist_Inc_Winwidth = 0
 
 " flake8
