@@ -36,13 +36,13 @@ In your home directory:
 * **,cl** => Comment lines (put comment symbol on the left)
 * **,f** => Ack search
 * **,p** => Hammer (preview in web browser)
-* **,t** => Open file (Command-T)
+* **,t** => Open file (CtrlP)
 
 ##Plugins
 * [Ack](https://github.com/mileszs/ack.vim)
 * [AutoClose](https://github.com/vim-scripts/AutoClose)
-* [Commant-T](http://www.vim.org/scripts/script.php?script_id=3025)
 * [ColorToggle](https://github.com/saghul/vim-colortoggle)
+* [CtrlP](https://github.com/kien/ctrlp.vim.git)
 * [current-func-info](https://github.com/tyru/current-func-info.vim)
 * [flake8](https://github.com/nvie/vim-flake8)
 * [fugitive](https://github.com/tpope/vim-fugitive)

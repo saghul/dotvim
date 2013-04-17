@@ -126,8 +126,8 @@ nmap <silent><C-l> :nohlsearch<CR>
 map <silent><C-t> :tabnew<CR>
 map <silent><C-o> :op .<CR>
 
-" open Command-T
-nmap <Leader>t :CommandT<CR>
+" open CtrlP
+nmap <Leader>t :CtrlP<CR>
 
 if os == "Darwin"
     map <silent><S-Right> :tabnext<CR>
