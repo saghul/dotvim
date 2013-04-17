@@ -149,10 +149,6 @@ map <silent><F4> :NERDTreeToggle<CR>
 " use jj same as ESC
 imap jj <Esc>
 
-" fast write and quit
-imap qq <Esc>:q!<CR>
-imap ww <Esc>:wq<CR>
-
 " Toggle TagLIst on/off
 map <silent><F5> :TlistToggle<CR>
 

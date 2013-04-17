@@ -25,8 +25,6 @@ In your home directory:
 
 ###Insert mode
 * **jj** => Back to normal mode
-* **qq** => Quit without saving (:q!)
-* **ww** => Save and quit (:wq)
 
 ###Plugin related
 * **Shift + t** => Show task list
