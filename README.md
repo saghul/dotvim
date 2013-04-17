@@ -55,6 +55,7 @@ In your home directory:
 * [powerline](https://github.com/Lokaltog/vim-powerline)
 * [pydoc](https://github.com/fs111/pydoc.vim)
 * [snipMate](https://github.com/msanders/snipmate.vim)
+* [supertab](https://github.com/ervandew/supertab.git)
 * [taglist](http://www.vim.org/scripts/script.php?script_id=273)
 * [tasklist](http://www.vim.org/scripts/script.php?script_id=2607)
 * [webapi](https://github.com/mattn/webapi-vim)
