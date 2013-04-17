@@ -171,7 +171,7 @@ noremap <Leader>f :Ack
 map <silent><F6> :GundoToggle<CR>
 
 " tagbar
-map <silent><F6> :TagbarToggle<CR>
+map <silent><F9> :TagbarToggle<CR>
 let g:tagbar_autofocus = 1
 
 " hammer
