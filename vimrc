@@ -230,9 +230,9 @@ endif
 
 " TagList plugin configuration
 if os == "Darwin"
-    let Tlist_Ctags_Cmd = '~/.homebrew/bin/ctags'
+    let Tlist_Ctags_Cmd = 'ctags'
 elseif os == "Linux"
-    let Tlist_Ctags_Cmd = '/usr/bin/ctags-exuberant'
+    let Tlist_Ctags_Cmd = 'ctags-exuberant'
 endif
 let Tlist_Inc_Winwidth = 0
 
