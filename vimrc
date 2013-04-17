@@ -170,6 +170,10 @@ noremap <Leader>f :Ack
 " gundo
 map <silent><F6> :GundoToggle<CR>
 
+" tagbar
+map <silent><F6> :TagbarToggle<CR>
+let g:tagbar_autofocus = 1
+
 " hammer
 noremap <Leader>p :Hammer<CR>
 

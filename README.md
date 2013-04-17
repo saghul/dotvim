@@ -32,6 +32,7 @@ In your home directory:
 * **F5** => Toggle taglist
 * **F6** => Toggle Gundo
 * **F8** => flake8
+* **F9** => tagbar
 * **F11** => Toggle color and background
 * **,cl** => Comment lines (put comment symbol on the left)
 * **,f** => Ack search
@@ -56,6 +57,7 @@ In your home directory:
 * [pydoc](https://github.com/fs111/pydoc.vim)
 * [snipMate](https://github.com/msanders/snipmate.vim)
 * [supertab](https://github.com/ervandew/supertab.git)
+* [tagbar](https://github.com/majutsushi/tagbar)
 * [taglist](http://www.vim.org/scripts/script.php?script_id=273)
 * [tasklist](http://www.vim.org/scripts/script.php?script_id=2607)
 * [webapi](https://github.com/mattn/webapi-vim)
