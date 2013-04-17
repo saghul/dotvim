@@ -240,6 +240,10 @@ let Tlist_Inc_Winwidth = 0
 let g:flake8_cmd=expand("~/.vim/pymodules/flake8/bin/flake8")
 let g:flake8_ignore="E501"
 
+" powerline
+let g:Powerline_stl_path_style = 'full'
+
+
 """ Misc options """
 
 " remember where we stopped editing a file
