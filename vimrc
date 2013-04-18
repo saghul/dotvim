@@ -155,15 +155,6 @@ map <silent><F5> :TlistToggle<CR>
 " show task list
 map <silent><S-t> <Plug>TaskList
 
-" omnicomplete
-" <C-p> : keyword completion
-if has("gui_running")
-    inoremap <C-Space> <C-x><C-o><C-n>
-else
-    inoremap <Nul> <C-x><C-o>
-endif
-" <C-Space> might be needed in GUI environments instead of <Nul>
-
 " ack
 noremap <Leader>f :Ack
 
@@ -187,8 +178,6 @@ imap <C-v> <ESC>"+pa
 """ Omni-completion options """
 " http://vim.wikia.com/wiki/Make_Vim_completion_popup_menu_work_just_like_in_an_IDE
 set completeopt=longest,menuone
-inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-inoremap <expr> <C-n> pumvisible() ? '<C-n>' : '<C-n><C-r>=pumvisible() ? "\<lt>Down>" : ""<CR>'
 
 
 " save file with sudo if not opened as root
