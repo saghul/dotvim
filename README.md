@@ -41,6 +41,7 @@ In your home directory:
 
 ##Plugins
 * [Ack](https://github.com/mileszs/ack.vim)
+* [airline](https://github.com/bling/vim-airline.git)
 * [AutoClose](https://github.com/vim-scripts/AutoClose)
 * [ColorToggle](https://github.com/saghul/vim-colortoggle)
 * [CtrlP](https://github.com/kien/ctrlp.vim.git)
