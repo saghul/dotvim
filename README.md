@@ -53,7 +53,6 @@ In your home directory:
 * [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
 * [NERDTree](http://www.vim.org/scripts/script.php?script_id=1658)
 * [Pathogen](https://github.com/tpope/vim-pathogen)
-* [powerline](https://github.com/Lokaltog/vim-powerline)
 * [pydoc](https://github.com/fs111/pydoc.vim)
 * [snipMate](https://github.com/msanders/snipmate.vim)
 * [supertab](https://github.com/ervandew/supertab.git)
