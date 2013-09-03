@@ -130,12 +130,14 @@ map <silent><C-o> :op .<CR>
 nmap <Leader>t :CtrlP<CR>
 
 if os == "Darwin"
-    map <silent><S-Right> :tabnext<CR>
     map <silent><S-Left> :tabprevious<CR>
+    map <silent><S-Right> :tabnext<CR>
 elseif os == "Linux"
-    map <silent><A-Right> :tabnext<CR>
     map <silent><A-Left> :tabprevious<CR>
+    map <silent><A-Right> :tabnext<CR>
 endif
+map <silent><S-h> :tabprevious<CR>
+map <silent><S-l> :tabnext<CR>
 
 " toggle line numbers
 map <silent><F2> :set invnumber<CR>

@@ -18,8 +18,13 @@ In your home directory:
 * **Ctrl + l** => Clear search highlight
 * **Ctrl + t** => Open new tab
 * **Ctrl + o** => Open file in current directory
-* **Alt + left** => Move across tabs, to the left
-* **Alt + right** => Move across tabs, to the right
+* **Alt + left** => Move across tabs, to the left (Linux)
+* **Alt + right** => Move across tabs, to the right (Linux)
+* **Shift + left** => Move across tabs, to the left (OSX)
+* **Shift + right** => Move across tabs, to the right (OSX)
+* **Shift + h** => Move across tabs, to the left (OSX)
+* **Shift + l** => Move across tabs, to the right (OSX)
+* **F2** => Toggle line numbers
 * **F2** => Toggle line numbers
 * **F3** => Toggle paste mode
 
