@@ -62,6 +62,7 @@ In your home directory:
 * [Pathogen](https://github.com/tpope/vim-pathogen)
 * [pydoc](https://github.com/fs111/pydoc.vim)
 * [python-combined](https://github.com/mitsuhiko/vim-python-combined.git)
+* [rust.vim](https://github.com/wting/rust.vim.git)
 * [snipmate](https://github.com/garbas/vim-snipmate.git)
 * [snippets](https://github.com/honza/vim-snippets.git)
 * [supertab](https://github.com/ervandew/supertab.git)

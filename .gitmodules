@@ -76,3 +76,6 @@
 [submodule "bundle/python-combined"]
 	path = bundle/python-combined
 	url = https://github.com/mitsuhiko/vim-python-combined.git
+[submodule "bundle/rust"]
+	path = bundle/rust
+	url = https://github.com/wting/rust.vim.git
