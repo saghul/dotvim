@@ -230,6 +230,25 @@ let Tlist_Inc_Winwidth = 0
 let g:flake8_cmd=expand("~/.vim/pymodules/flake8/bin/flake8")
 let g:flake8_ignore="E501"
 
+" supertab
+let g:SuperTabDefaultCompletionType = "context"
+let g:SuperTabClosePreviewOnPopupClose = 1
+let g:SuperTabLongestHighlight = 1
+
+autocmd FileType * call SuperTabInit()
+fun! SuperTabInit()
+    if !exists("b:superTabInitDone") && &omnifunc != ''
+        call SuperTabChain(&omnifunc, "<c-p>")
+        call SuperTabSetDefaultCompletionType("<c-x><c-u>")
+        let b:superTabInitDone=1
+    endif
+endfun
+
+" jedi (Python omnicomplete)
+let g:jedi#auto_vim_configuration = 0
+let g:jedi#popup_on_dot = 0
+let g:jedi#squelch_py_warning = 1
+
 
 """ Misc options """
 
