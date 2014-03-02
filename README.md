@@ -57,6 +57,7 @@ In your home directory:
 * [gist](https://github.com/mattn/gist-vim)
 * [gundo](https://github.com/sjl/gundo.vim)
 * [hammer](https://github.com/matthias-guenther/hammer.vim)
+* [jedi](https://github.com/davidhalter/jedi-vim.git)
 * [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
 * [NERDTree](http://www.vim.org/scripts/script.php?script_id=1658)
 * [Pathogen](https://github.com/tpope/vim-pathogen)
