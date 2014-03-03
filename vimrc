@@ -216,6 +216,9 @@ endif
 
 """ Plugin options """
 
+" AutoClose (disabled for now)
+let g:autoclose_loaded = 1
+
 " Ack plugin configuration
 if os == "Darwin"
     let g:ackprg="ack -H --nocolor --nogroup --column"
