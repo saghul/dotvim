@@ -251,6 +251,7 @@ endfun
 let g:jedi#auto_vim_configuration = 0
 let g:jedi#popup_on_dot = 0
 let g:jedi#squelch_py_warning = 1
+let g:jedi#show_call_signatures = 0
 
 
 """ Misc options """
