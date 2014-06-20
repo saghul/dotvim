@@ -115,8 +115,23 @@ nnoremap <C-down> <C-w>j
 nnoremap <C-up> <C-w>k
 nnoremap <C-right> <C-w>l
 
+" new empty buffer
+nmap <leader>T :enew<CR>
+
+" next buffer
+nmap <C-l> :bnext<CR>
+
+" previous buffer
+nmap <C-h> :bprevious<CR>
+
+" close buffer and jump to previous one (aka, close tab)
+nmap <leader>bq :bp <BAR> bd #<CR>
+
+" list buffers
+nmap <leader>bl :ls<CR>
+
 " clear highlighted search
-nmap <silent><C-l> :nohlsearch<CR>
+nmap <silent><leader>l :nohlsearch<CR>
 
 " Managing tabs:
 " CTRL-t opens a new tab
