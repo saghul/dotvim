@@ -25,9 +25,6 @@
 [submodule "bundle/colortoggle"]
 	path = bundle/colortoggle
 	url = https://github.com/saghul/vim-colortoggle.git
-[submodule "bundle/taglist"]
-	path = bundle/taglist
-	url = https://github.com/vim-scripts/taglist.vim.git
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = https://github.com/tpope/vim-fugitive.git
