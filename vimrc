@@ -151,8 +151,9 @@ map <silent><F4> :NERDTreeToggle<CR>
 " use jj same as ESC
 imap jj <Esc>
 
-" Toggle TagLIst on/off
-map <silent><F5> :TlistToggle<CR>
+" tagbar
+map <silent><F5> :TagbarToggle<CR>
+let g:tagbar_autofocus = 1
 
 " show task list
 map <silent><S-t> <Plug>TaskList
@@ -162,10 +163,6 @@ noremap <Leader>f :Ack
 
 " gundo
 map <silent><F6> :GundoToggle<CR>
-
-" tagbar
-map <silent><F9> :TagbarToggle<CR>
-let g:tagbar_autofocus = 1
 
 " hammer
 noremap <Leader>p :Hammer<CR>
