@@ -133,26 +133,11 @@ nmap <leader>bl :ls<CR>
 " clear highlighted search
 nmap <silent><leader>l :nohlsearch<CR>
 
-" Managing tabs:
-" CTRL-t opens a new tab
-" ALT-left moves left
-" ALT-right moves right
-" CTRL-o opens current directory
-map <silent><C-t> :tabnew<CR>
-map <silent><C-o> :op .<CR>
+" open current directory
+map <silent><leader>o :op .<CR>
 
 " open CtrlP
 nmap <Leader>t :CtrlP<CR>
-
-if os == "Darwin"
-    map <silent><S-Left> :tabprevious<CR>
-    map <silent><S-Right> :tabnext<CR>
-elseif os == "Linux"
-    map <silent><A-Left> :tabprevious<CR>
-    map <silent><A-Right> :tabnext<CR>
-endif
-map <silent><S-h> :tabprevious<CR>
-map <silent><S-l> :tabnext<CR>
 
 " toggle line numbers
 map <silent><F2> :set invnumber<CR>
