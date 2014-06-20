@@ -15,16 +15,14 @@ In your home directory:
     cd dotvim && ./install.sh
 
 ###Normal mode
-* **Ctrl + l** => Clear search highlight
-* **Ctrl + t** => Open new tab
-* **Ctrl + o** => Open file in current directory
-* **Alt + left** => Move across tabs, to the left (Linux)
-* **Alt + right** => Move across tabs, to the right (Linux)
-* **Shift + left** => Move across tabs, to the left (OSX)
-* **Shift + right** => Move across tabs, to the right (OSX)
-* **Shift + h** => Move across tabs, to the left (OSX)
-* **Shift + l** => Move across tabs, to the right (OSX)
-* **F2** => Toggle line numbers
+* **,l** => Clear search highlight
+* **,T** => Open new empty buffer
+* **,o** => Open file in current directory
+* **,t** => Open file (CtrlP)
+* **Ctrl + h** => Move to the previous buffer
+* **Ctrl + l** => Move to the next buffer
+* **,bq** => Close buffer and go to the previous one
+* **,bl** => List buffers
 * **F2** => Toggle line numbers
 * **F3** => Toggle paste mode
 
@@ -34,15 +32,13 @@ In your home directory:
 ###Plugin related
 * **Shift + t** => Show task list
 * **F4** => NERDTree
-* **F5** => Toggle taglist
+* **F5** => Toggle tagbar
 * **F6** => Toggle Gundo
 * **F8** => flake8
-* **F9** => tagbar
 * **F11** => Toggle color and background
 * **,cl** => Comment lines (put comment symbol on the left)
 * **,f** => Ack search
 * **,p** => Hammer (preview in web browser)
-* **,t** => Open file (CtrlP)
 
 ##Plugins
 * [Ack](https://github.com/mileszs/ack.vim)
@@ -68,7 +64,6 @@ In your home directory:
 * [snippets](https://github.com/honza/vim-snippets.git)
 * [supertab](https://github.com/ervandew/supertab.git)
 * [tagbar](https://github.com/majutsushi/tagbar)
-* [taglist](http://www.vim.org/scripts/script.php?script_id=273)
 * [tasklist](http://www.vim.org/scripts/script.php?script_id=2607)
 * [webapi](https://github.com/mattn/webapi-vim)
 
