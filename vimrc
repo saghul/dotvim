@@ -167,6 +167,13 @@ map <silent><F6> :GundoToggle<CR>
 " hammer
 noremap <Leader>p :Hammer<CR>
 
+" airline
+"  Enable the list of buffers
+let g:airline#extensions#tabline#enabled = 1
+"  Show just the filename
+let g:airline#extensions#tabline#fnamemod = ':t'
+
+
 " standard cut/copy/paste keys
 vmap <C-c> "+yi
 vmap <C-x> "+c
