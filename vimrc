@@ -128,7 +128,7 @@ nmap <C-h> :bprevious<CR>
 nmap <leader>bq :bp <BAR> bd #<CR>
 
 " list buffers
-nmap <leader>bl :ls<CR>
+nmap <leader>bl :Unite buffer<CR>
 
 " clear highlighted search
 nmap <silent><leader>l :nohlsearch<CR>

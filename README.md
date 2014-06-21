@@ -65,6 +65,7 @@ In your home directory:
 * [supertab](https://github.com/ervandew/supertab.git)
 * [tagbar](https://github.com/majutsushi/tagbar)
 * [tasklist](http://www.vim.org/scripts/script.php?script_id=2607)
+* [unite](https://github.com/Shougo/unite.vim.git)
 * [webapi](https://github.com/mattn/webapi-vim)
 
 ##Colorschemes
