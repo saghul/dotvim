@@ -19,10 +19,12 @@ git submodule init
 git submodule update
 read -p "Update all plugins (y/n)? "
 [ "$REPLY" == "y" ] && git submodule foreach git pull origin master
-pushd ~/.vim/bundle/jedi > /dev/null 2>&1
-read -p "Update Jedi? "
-[ "$REPLY" == "y" ] && git submodule update --init
 popd > /dev/null 2>&1
+
+# Install builtin Jedi
+echo "Installing Jedi..."
+pushd ~/.vim/bundle/jedi > /dev/null 2>&1
+git submodule update --init
 popd > /dev/null 2>&1
 
 echo "Don't forget to install the following Ruby gems for Hammer to work: github-markup tilt redcarpet"
