@@ -16,7 +16,7 @@ In your home directory:
 
 ###Normal mode
 * **,l** => Clear search highlight
-* **,T** => Open new empty buffer
+* **,n** => Open new empty buffer
 * **,o** => Open file in current directory
 * **,t** => Open file (CtrlP)
 * **Ctrl + h** => Move to the previous buffer

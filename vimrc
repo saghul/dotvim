@@ -116,7 +116,7 @@ nnoremap <C-up> <C-w>k
 nnoremap <C-right> <C-w>l
 
 " new empty buffer
-nmap <leader>T :enew<CR>
+nmap <leader>n :enew<CR>
 
 " next buffer
 nmap <C-l> :bnext<CR>
