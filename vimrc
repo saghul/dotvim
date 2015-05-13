@@ -93,6 +93,9 @@ rviminfo
 " position cursor one character after the real content: http://vimdoc.sourceforge.net/htmldoc/options.html#'virtualedit
 set virtualedit=onemore
 
+" allow to switch buffers even without saving
+set hidden
+
 """ Custom key settings """
 
 " <leader> key
