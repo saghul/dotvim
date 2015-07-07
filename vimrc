@@ -184,15 +184,14 @@ vmap <C-v> c<ESC>"+p
 imap <C-v> <ESC>"+pa
 
 
-""" Omni-completion options """
-" http://vim.wikia.com/wiki/Make_Vim_completion_popup_menu_work_just_like_in_an_IDE
-set completeopt=longest,menuone
-
-
 " save file with sudo if not opened as root
 command W :execute ':silent w !sudo tee % > /dev/null' | :edit!
 command Wq :execute ':W' | :q
 command WQ :Wq
+
+
+" default completion
+set omnifunc=syntaxcomplete#Complete
 
 
 """ skeletons """
@@ -239,26 +238,6 @@ let Tlist_Inc_Winwidth = 0
 " flake8
 let g:flake8_cmd=expand("~/.vim/pymodules/flake8/bin/flake8")
 let g:flake8_ignore="E501"
-
-" supertab
-let g:SuperTabDefaultCompletionType = "context"
-let g:SuperTabClosePreviewOnPopupClose = 1
-let g:SuperTabLongestHighlight = 1
-
-autocmd FileType * call SuperTabInit()
-fun! SuperTabInit()
-    if !exists("b:superTabInitDone") && &omnifunc != ''
-        call SuperTabChain(&omnifunc, "<c-p>")
-        call SuperTabSetDefaultCompletionType("<c-x><c-u>")
-        let b:superTabInitDone=1
-    endif
-endfun
-
-" jedi (Python omnicomplete)
-let g:jedi#auto_vim_configuration = 0
-let g:jedi#popup_on_dot = 0
-let g:jedi#squelch_py_warning = 1
-let g:jedi#show_call_signatures = 0
 
 
 """ Misc options """
