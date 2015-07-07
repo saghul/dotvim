@@ -28,6 +28,7 @@ In your home directory:
 
 ###Insert mode
 * **jj** => Back to normal mode
+* **Ctrl + j** => Togge snippet
 
 ###Plugin related
 * **Shift + t** => Show task list
@@ -53,20 +54,20 @@ In your home directory:
 * [gist](https://github.com/mattn/gist-vim)
 * [gundo](https://github.com/sjl/gundo.vim)
 * [hammer](https://github.com/matthias-guenther/hammer.vim)
-* [jedi](https://github.com/davidhalter/jedi-vim.git)
 * [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
 * [NERDTree](http://www.vim.org/scripts/script.php?script_id=1658)
 * [Pathogen](https://github.com/tpope/vim-pathogen)
 * [pydoc](https://github.com/fs111/pydoc.vim)
 * [python-combined](https://github.com/mitsuhiko/vim-python-combined.git)
 * [rust.vim](https://github.com/wting/rust.vim.git)
-* [snipmate](https://github.com/garbas/vim-snipmate.git)
 * [snippets](https://github.com/honza/vim-snippets.git)
-* [supertab](https://github.com/ervandew/supertab.git)
 * [tagbar](https://github.com/majutsushi/tagbar)
 * [tasklist](http://www.vim.org/scripts/script.php?script_id=2607)
+* [toml](https://github.com/cespare/vim-toml.git)
+* [ultisnips](https://github.com/SirVer/ultisnips.git)
 * [unite](https://github.com/Shougo/unite.vim.git)
 * [webapi](https://github.com/mattn/webapi-vim)
+* [ycm](https://github.com/Valloric/YouCompleteMe)
 
 ##Colorschemes
 * [mustang](http://hcalves.deviantart.com/art/Mustang-Vim-Colorscheme-98974484)
