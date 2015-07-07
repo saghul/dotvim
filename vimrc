@@ -239,6 +239,11 @@ let Tlist_Inc_Winwidth = 0
 let g:flake8_cmd=expand("~/.vim/pymodules/flake8/bin/flake8")
 let g:flake8_ignore="E501"
 
+" Ultisnips
+let g:UltiSnipsExpandTrigger="<c-j>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
 
 """ Misc options """
 

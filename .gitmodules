@@ -82,3 +82,9 @@
 [submodule "bundle/js-syntax"]
 	path = bundle/js-syntax
 	url = https://github.com/jelera/vim-javascript-syntax.git
+[submodule "bundle/snippets"]
+	path = bundle/snippets
+	url = https://github.com/honza/vim-snippets.git
+[submodule "bundle/ultisnips"]
+	path = bundle/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
