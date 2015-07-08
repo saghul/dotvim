@@ -63,6 +63,7 @@ In your home directory:
 * [snippets](https://github.com/honza/vim-snippets.git)
 * [tagbar](https://github.com/majutsushi/tagbar)
 * [tasklist](http://www.vim.org/scripts/script.php?script_id=2607)
+* [tern](https://github.com/marijnh/tern_for_vim)
 * [toml](https://github.com/cespare/vim-toml.git)
 * [ultisnips](https://github.com/SirVer/ultisnips.git)
 * [unite](https://github.com/Shougo/unite.vim.git)

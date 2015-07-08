@@ -28,6 +28,12 @@ git submodule update --init --recursive
 ./install.sh
 popd > /dev/null 2>&1
 
+# Install Tern
+echo "Installing Tern..."
+pushd ~/.vim/bundle/tern > /dev/null 2>&1
+npm install
+popd > /dev/null 2>&1
+
 echo "Don't forget to install the following Ruby gems for Hammer to work: github-markup tilt redcarpet"
 echo "All done!"
 exit 0
