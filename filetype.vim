@@ -10,3 +10,5 @@ au FileType cython let b:did_pyflakes_plugin = 1
 autocmd BufEnter ?akefile* set noexpandtab tabstop=8 shiftwidth=8
 autocmd BufEnter */debian/rules set noexpandtab tabstop=8 shiftwidth=8
 
+" md is for Markdown, not Module-2
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
