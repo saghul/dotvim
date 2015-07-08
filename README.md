@@ -39,7 +39,6 @@ In your home directory:
 * **F11** => Toggle color and background
 * **,cl** => Comment lines (put comment symbol on the left)
 * **,f** => Ack search
-* **,p** => Hammer (preview in web browser)
 
 ##Plugins
 * [Ack](https://github.com/mileszs/ack.vim)
@@ -53,7 +52,6 @@ In your home directory:
 * [fugitive](https://github.com/tpope/vim-fugitive)
 * [gist](https://github.com/mattn/gist-vim)
 * [gundo](https://github.com/sjl/gundo.vim)
-* [hammer](https://github.com/matthias-guenther/hammer.vim)
 * [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
 * [NERDTree](http://www.vim.org/scripts/script.php?script_id=1658)
 * [Pathogen](https://github.com/tpope/vim-pathogen)
