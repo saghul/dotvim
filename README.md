@@ -64,6 +64,7 @@ In your home directory:
 * [tern](https://github.com/marijnh/tern_for_vim)
 * [toml](https://github.com/cespare/vim-toml.git)
 * [ultisnips](https://github.com/SirVer/ultisnips.git)
+* [unimparired](https://github.com/tpope/vim-unimpaired.git)
 * [unite](https://github.com/Shougo/unite.vim.git)
 * [webapi](https://github.com/mattn/webapi-vim)
 * [ycm](https://github.com/Valloric/YouCompleteMe)
