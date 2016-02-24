@@ -236,8 +236,7 @@ endif
 let Tlist_Inc_Winwidth = 0
 
 " flake8
-let g:flake8_cmd=expand("~/.vim/pymodules/flake8/bin/flake8")
-let g:flake8_ignore="E501"
+let g:flake8_cmd=expand("~/.vim/pymodules/bin/flake8")
 
 " Ultisnips
 let g:UltiSnipsExpandTrigger="<c-j>"

@@ -1,0 +1,3 @@
+#!/bin/sh
+
+PYTHONPATH=~/.vim/pymodules/flake8:~/.vim/pymodules/pycodestyle:~/.vim/pymodules/pyflakes:~/.vim/pymodules/mccabe python -m flake8 --ignore=E501 $@
