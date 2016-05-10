@@ -96,6 +96,9 @@ set virtualedit=onemore
 " allow to switch buffers even without saving
 set hidden
 
+" nicer autocompletion for command menu
+set wildmenu
+
 """ Custom key settings """
 
 " <leader> key
