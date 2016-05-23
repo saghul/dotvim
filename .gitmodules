@@ -103,3 +103,6 @@
 [submodule "pymodules/pyflakes"]
 	path = pymodules/pyflakes
 	url = https://github.com/pyflakes/pyflakes.git
+[submodule "bundle/editorconfig"]
+	path = bundle/editorconfig
+	url = https://github.com/editorconfig/editorconfig-vim.git

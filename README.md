@@ -48,6 +48,7 @@ In your home directory:
 * [CtrlP](https://github.com/kien/ctrlp.vim.git)
 * [current-func-info](https://github.com/tyru/current-func-info.vim)
 * [cython](https://github.com/tshirtman/vim-cython)
+* [EditorConfig](https://github.com/editorconfig/editorconfig-vim)
 * [flake8](https://github.com/nvie/vim-flake8)
 * [fugitive](https://github.com/tpope/vim-fugitive)
 * [gist](https://github.com/mattn/gist-vim)
