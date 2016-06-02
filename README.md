@@ -45,7 +45,7 @@ In your home directory:
 * [airline](https://github.com/bling/vim-airline.git)
 * [AutoClose](https://github.com/vim-scripts/AutoClose)
 * [ColorToggle](https://github.com/saghul/vim-colortoggle)
-* [CtrlP](https://github.com/kien/ctrlp.vim.git)
+* [CtrlP](https://github.com/ctrlpvim/ctrlp.vim)
 * [current-func-info](https://github.com/tyru/current-func-info.vim)
 * [cython](https://github.com/tshirtman/vim-cython)
 * [EditorConfig](https://github.com/editorconfig/editorconfig-vim)
