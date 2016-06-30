@@ -59,6 +59,7 @@ In your home directory:
 * [pydoc](https://github.com/fs111/pydoc.vim)
 * [python-combined](https://github.com/mitsuhiko/vim-python-combined.git)
 * [rust.vim](https://github.com/wting/rust.vim.git)
+* [signify](https://github.com/mhinz/vim-signify.git)
 * [snippets](https://github.com/honza/vim-snippets.git)
 * [swift](https://github.com/keith/swift.vim.git)
 * [tagbar](https://github.com/majutsushi/tagbar)
