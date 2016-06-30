@@ -60,6 +60,7 @@ In your home directory:
 * [python-combined](https://github.com/mitsuhiko/vim-python-combined.git)
 * [rust.vim](https://github.com/wting/rust.vim.git)
 * [snippets](https://github.com/honza/vim-snippets.git)
+* [swift](https://github.com/keith/swift.vim.git)
 * [tagbar](https://github.com/majutsushi/tagbar)
 * [tasklist](http://www.vim.org/scripts/script.php?script_id=2607)
 * [tern](https://github.com/marijnh/tern_for_vim)
