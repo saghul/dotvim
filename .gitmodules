@@ -112,3 +112,6 @@
 [submodule "bundle/signify"]
 	path = bundle/signify
 	url = https://github.com/mhinz/vim-signify.git
+[submodule "bundle/go"]
+	path = bundle/go
+	url = https://github.com/fatih/vim-go

@@ -52,6 +52,7 @@ In your home directory:
 * [flake8](https://github.com/nvie/vim-flake8)
 * [fugitive](https://github.com/tpope/vim-fugitive)
 * [gist](https://github.com/mattn/gist-vim)
+* [go](https://github.com/fatih/vim-go)
 * [gundo](https://github.com/sjl/gundo.vim)
 * [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
 * [NERDTree](http://www.vim.org/scripts/script.php?script_id=1658)
