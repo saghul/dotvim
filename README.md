@@ -2,19 +2,19 @@
 
 My ViM configuration. Its my current Python IDE.
 
-Works on GNU/Linux and Mac OSX.
+Works on GNU/Linux and macOS.
 
-##Before you continue reading
+## Before you continue reading
 You'll need ViM 7.3 or higher.
 
-##Installation
+## Installation
 In your home directory:
 
     git clone https://github.com/saghul/dotvim.git
 
     cd dotvim && ./install.sh
 
-###Normal mode
+### Normal mode
 * **,l** => Clear search highlight
 * **,n** => Open new empty buffer
 * **,o** => Open file in current directory
@@ -26,11 +26,11 @@ In your home directory:
 * **F2** => Toggle line numbers
 * **F3** => Toggle paste mode
 
-###Insert mode
+### Insert mode
 * **jj** => Back to normal mode
 * **Ctrl + j** => Togge snippet
 
-###Plugin related
+### Plugin related
 * **Shift + t** => Show task list
 * **F4** => NERDTree
 * **F5** => Toggle tagbar
@@ -40,7 +40,7 @@ In your home directory:
 * **,cl** => Comment lines (put comment symbol on the left)
 * **,f** => Ack search
 
-##Plugins
+## Plugins
 * [Ack](https://github.com/mileszs/ack.vim)
 * [airline](https://github.com/bling/vim-airline.git)
 * [AutoClose](https://github.com/vim-scripts/AutoClose)
@@ -65,7 +65,6 @@ In your home directory:
 * [swift](https://github.com/keith/swift.vim.git)
 * [tagbar](https://github.com/majutsushi/tagbar)
 * [tasklist](http://www.vim.org/scripts/script.php?script_id=2607)
-* [tern](https://github.com/marijnh/tern_for_vim)
 * [toml](https://github.com/cespare/vim-toml.git)
 * [ultisnips](https://github.com/SirVer/ultisnips.git)
 * [unimparired](https://github.com/tpope/vim-unimpaired.git)
@@ -73,14 +72,14 @@ In your home directory:
 * [webapi](https://github.com/mattn/webapi-vim)
 * [ycm](https://github.com/Valloric/YouCompleteMe)
 
-##Colorschemes
+## Colorschemes
 * [mustang](http://hcalves.deviantart.com/art/Mustang-Vim-Colorscheme-98974484)
 * [mayansmoke](http://www.vim.org/scripts/script.php?script_id=3065)
 * [ir_black](http://blog.toddwerth.com/entries/show/8)
 * [pyte](http://www.vim.org/scripts/script.php?script_id=1492)
 * [solarized](https://github.com/altercation/vim-colors-solarized)
 
-###Some considerations
+### Some considerations
 * Leader is **,**
 * Font is Ubuntu Mono or Inconsolata (size 16)
 * Also works in GUI environments, all toolbars have been removed
