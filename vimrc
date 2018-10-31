@@ -229,11 +229,7 @@ endif
 let g:autoclose_loaded = 1
 
 " Ack plugin configuration
-if os == "Darwin"
-    let g:ackprg="ack -H --nocolor --nogroup --column"
-elseif os == "Linux"
-    let g:ackprg="ack-grep -H --nocolor --nogroup --column"
-endif
+let g:ackprg="ag --vimgrep"
 
 " TagList plugin configuration
 let Tlist_Inc_Winwidth = 0
