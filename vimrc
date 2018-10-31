@@ -170,9 +170,6 @@ noremap <Leader>f :Ack
 " gundo
 map <silent><F6> :GundoToggle<CR>
 
-" hammer
-noremap <Leader>p :Hammer<CR>
-
 " airline
 "  Enable the list of buffers
 let g:airline#extensions#tabline#enabled = 1
