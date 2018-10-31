@@ -10,9 +10,11 @@ You'll need ViM 7.3 or higher.
 ## Installation
 In your home directory:
 
-    git clone https://github.com/saghul/dotvim.git
-
-    cd dotvim && ./install.sh
+```
+    git clone --recurse-submodules https://github.com/saghul/dotvim.git
+    cd dotvim
+    make install
+```
 
 ### Normal mode
 * **,l** => Clear search highlight
