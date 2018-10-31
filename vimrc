@@ -81,7 +81,7 @@ set pastetoggle=<F3>
 set tabpagemax=50
 
 " ignore files and folders from listings
-set wildignore+=.git/*,.svn/*,.hg/*,_darcs/*,build/*,dist/*,*.o,*.so,*.pyc
+set wildignore+=.git/*,.svn/*,.hg/*,_darcs/*,build/*,dist/*,*.o,*.so,*.pyc,node_modules/
 
 " save OS for later checks
 let os = substitute(system('uname'), "\n", "", "")
