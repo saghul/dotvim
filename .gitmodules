@@ -55,12 +55,6 @@
 [submodule "bundle/addon-mw-utils"]
 	path = bundle/addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
-[submodule "bundle/cython"]
-	path = bundle/cython
-	url = https://github.com/tshirtman/vim-cython.git
-[submodule "bundle/python-combined"]
-	path = bundle/python-combined
-	url = https://github.com/mitsuhiko/vim-python-combined.git
 [submodule "bundle/rust"]
 	path = bundle/rust
 	url = https://github.com/wting/rust.vim.git
@@ -88,18 +82,6 @@
 [submodule "bundle/unimpaired"]
 	path = bundle/unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
-[submodule "pymodules/flake8"]
-	path = pymodules/flake8
-	url = https://gitlab.com/pycqa/flake8.git
-[submodule "pymodules/mccabe"]
-	path = pymodules/mccabe
-	url = https://github.com/PyCQA/mccabe.git
-[submodule "pymodules/pycodestyle"]
-	path = pymodules/pycodestyle
-	url = https://github.com/PyCQA/pycodestyle.git
-[submodule "pymodules/pyflakes"]
-	path = pymodules/pyflakes
-	url = https://github.com/pyflakes/pyflakes.git
 [submodule "bundle/editorconfig"]
 	path = bundle/editorconfig
 	url = https://github.com/editorconfig/editorconfig-vim.git
