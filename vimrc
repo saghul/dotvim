@@ -8,7 +8,9 @@ filetype plugin on
 filetype plugin indent on
 
 " color!
+packadd! dracula
 syntax on
+colorscheme dracula
 
 " lines and cols in status line
 set ruler
@@ -160,7 +162,7 @@ autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "norm
 
 " highlight wrong spaces and tabs
 autocmd ColorScheme * highlight BadWhitespace ctermbg=red guibg=red
-colorscheme default " hack to force the highlight group to be created
+colorscheme dracula  " hack to force the highlight group to be created
 match BadWhitespace /^\t\+/
 match BadWhitespace /^\s\+/
 match BadWhitespace /\t\+$/
