@@ -1,5 +1,5 @@
 
-install: backup copy-new install-ycm
+install: backup copy-new
 
 backup:
 	$(eval NOW := $(shell date +%Y-%m-%d.%H:%M:%S))
@@ -11,16 +11,3 @@ copy-new:
 	mkdir -p ~/.vim && \
 	cp -a . ~/.vim && \
 	ln -s ~/.vim/vimrc ~/.vimrc
-
-install-ycm:
-	echo "Installing YCM..."
-	pushd ~/.vim/bundle/ycm && \
-	git submodule update --init --recursive && \
-	./install.py
-
-upgrade:
-	pushd ~/.vim && \
-	git submodule init && \
-	git submodule update && \
-	git submodule foreach git pull origin master
-

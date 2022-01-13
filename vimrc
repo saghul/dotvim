@@ -3,13 +3,6 @@
 " fuck vi! long life vim!
 set nocompatible
 
-" pathogen
-filetype on
-filetype off
-call pathogen#runtime_append_all_bundles()
-call pathogen#runtime_append_all_bundles('static_bundle')
-call pathogen#helptags()
-
 " use filetype plugins
 filetype plugin on
 filetype plugin indent on
@@ -104,11 +97,6 @@ set wildmenu
 " <leader> key
 let mapleader = ","
 
-" Use Q for formatting the current paragraph (or selection)
-" doesn't do it very well for Python code
-" vmap Q gq
-" nmap Q gqap
-
 " no more arrows!
 " map <up> <nop>
 " map <down> <nop>
@@ -142,39 +130,14 @@ nmap <silent><leader>l :nohlsearch<CR>
 " open current directory
 map <silent><leader>o :op .<CR>
 
-" open CtrlP
-nmap <Leader>t :CtrlP<CR>
-
 " toggle line numbers
 map <silent><F2> :set invnumber<CR>
 
 " open a new shell
 " imap ss <Esc>:sh<CR>
 
-" toggle NERDtree
-map <silent><F4> :NERDTreeToggle<CR>
-
 " use jj same as ESC
 imap jj <Esc>
-
-" tagbar
-map <silent><F5> :TagbarToggle<CR>
-let g:tagbar_autofocus = 1
-
-" show task list
-map <silent><S-t> <Plug>TaskList
-
-" ack
-noremap <Leader>f :Ack
-
-" gundo
-map <silent><F6> :GundoToggle<CR>
-
-" airline
-"  Enable the list of buffers
-let g:airline#extensions#tabline#enabled = 1
-"  Show just the filename
-let g:airline#extensions#tabline#fnamemod = ':t'
 
 
 " standard cut/copy/paste keys
@@ -190,84 +153,10 @@ command Wq :execute ':W' | :q
 command WQ :Wq
 
 
-" default completion
-set omnifunc=syntaxcomplete#Complete
-
-
-""" skeletons """
-
-"au BufNewFile *.py 0r ~/.vim/skeleton/python.py
-
-
-""" GUI options """
-
-if has("gui_running")
-    if os == "Darwin"
-	set guifont=Ubuntu\ Mono:h18,Inconsolata:h16
-    else
-        set guifont=UbuntuMono\ 16,Inconsolata\ 16
-    endif
-    " no toolbar
-    set guioptions-=T
-    " no menu bar
-    set guioptions-=m
-    " no scrollbar on the right
-    set guioptions-=r
-    " no scrollbar on the left
-    set guioptions-=l
-    " disable audible bell
-    set visualbell
-endif
-
-
-""" Plugin options """
-
-" AutoClose (disabled for now)
-let g:autoclose_loaded = 1
-
-" Ack plugin configuration
-let g:ackprg="ag --vimgrep"
-
-" TagList plugin configuration
-let Tlist_Inc_Winwidth = 0
-
-" flake8
-let g:flake8_cmd=expand("~/.vim/pymodules/bin/flake8")
-
-" Ultisnips
-let g:UltiSnipsExpandTrigger="<c-j>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-
-" signify
-let g:signify_vcs_list = [ 'git', 'darcs', 'hg' ]
-let g:signify_vcs_cmds = {
-    \ 'git':      'git diff --no-color --no-ext-diff -U0 -- %f',
-    \ 'hg':       'hg diff --config extensions.color=! --config defaults.diff= --nodates -U0 -- %f',
-    \ 'darcs':    'darcs diff --no-pause-for-gui --diff-command="diff -uNr %1 %2" -- %f',
-    \ }
-
-
 """ Misc options """
 
 " remember where we stopped editing a file
 autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
-
-" nice colorschemes
-set t_Co=256
-let g:default_background_type = "dark"
-let g:solarized_termcolors = 256
-let g:solarized_termtrans = 0
-let g:dark_colorscheme = "solarized"
-let g:light_colorscheme = "solarized"
-"if has("gui_running")
-"    let g:dark_colorscheme = "mustang"
-"    let g:light_colorscheme = "pyte"
-"else
-"    let g:dark_colorscheme = "mustang"
-"    let g:light_colorscheme = "mayansmoke"
-"endif
-map <silent><F11> :ToggleBg<CR> :wviminfo<CR>
 
 " highlight wrong spaces and tabs
 autocmd ColorScheme * highlight BadWhitespace ctermbg=red guibg=red
@@ -301,4 +190,3 @@ if &term =~ '^screen'
     map! <Esc>OH <Home>
     map! <Esc>OF <End>
 endif
-
