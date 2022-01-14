@@ -10,7 +10,18 @@ filetype plugin indent on
 " color!
 packadd! dracula
 syntax on
+"" Adapted from https://vim.fandom.com/wiki/Highlight_unwanted_spaces
+autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 colorscheme dracula
+match ExtraWhitespace /\t\+$/
+match ExtraWhitespace /\s\+$/
+autocmd BufWinEnter * match ExtraWhitespace /\t\+$/
+autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
+autocmd InsertEnter * match ExtraWhitespace /\t\+\%#\@<!$/
+autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+autocmd InsertLeave * match ExtraWhitespace /\t\+$/
+autocmd InsertLeave * match ExtraWhitespace /\s\+$/
+autocmd BufWinLeave * call clearmatches()
 
 " lines and cols in status line
 set ruler
@@ -159,19 +170,6 @@ command WQ :Wq
 
 " remember where we stopped editing a file
 autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
-
-" highlight wrong spaces and tabs
-autocmd ColorScheme * highlight BadWhitespace ctermbg=red guibg=red
-colorscheme dracula  " hack to force the highlight group to be created
-match BadWhitespace /^\t\+/
-match BadWhitespace /^\s\+/
-match BadWhitespace /\t\+$/
-match BadWhitespace /\s\+$/
-autocmd BufWinEnter * match BadWhitespace /^\t\+/
-autocmd BufWinEnter * match BadWhitespace /^\s\+/
-autocmd BufWinEnter * match BadWhitespace /\t\+$/
-autocmd BufWinEnter * match BadWhitespace /\s\+$/
-autocmd BufWinLeave * call clearmatches()
 
 if &term =~ '^screen'
     " tmux will send xterm-style keys when its xterm-keys option is on
