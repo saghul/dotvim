@@ -105,8 +105,8 @@ endif
 if exists('g:loaded_cmp')
   hi! link CmpItemAbbrDeprecated DraculaError
 
-  hi! link CmpItemAbbrMatch DraculaFg
-  hi! link CmpItemAbbrMatchFuzzy DraculaFg
+  hi! link CmpItemAbbrMatch DraculaCyan
+  hi! link CmpItemAbbrMatchFuzzy DraculaCyan
 
   hi! link CmpItemKindText DraculaFg
   hi! link CmpItemKindMethod Function
@@ -133,6 +133,8 @@ if exists('g:loaded_cmp')
   hi! link CmpItemKindEvent DraculaFg
   hi! link CmpItemKindOperator DraculaPink
   hi! link CmpItemKindTypeParameter DraculaCyan
+
+  hi! link CmpItemMenu Comment
 endif
 " }}}
 
