@@ -1,3 +1,7 @@
+# DEPRECATED
+
+I've moved my (now simplified) config to my dotfiles repo: https://github.com/saghul/dotfiles
+
 # dotvim
 
 My ViM configuration.
